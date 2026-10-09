@@ -61,7 +61,7 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- Menginstall tools Library `Python`: `pip install -r requirements.txt`.
 	- Menjalankan Aplikasi `Flask Python`: `python app.py`
 	- Memjalankan `Chrome` Localhost `http://127.0.0.1:5000/`
-	- Menampilkan Dashboard Aplikasi `Doorprize PRO — V3 Plus`
+	- Menampilkan Dashboard Aplikasi `Doorprize PRO V3`
 
 ## Membuat Shortcut Aplikasi + Icon Desktop
 	- Klik Kanan pada `Doorprize_PRO_V3.bat` -> Send to `Desktop (Create Shortcut)`
