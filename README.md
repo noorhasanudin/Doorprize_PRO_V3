@@ -4,12 +4,8 @@ Doorprize PRO — V3 Copyright 2026 noorhasanudin email : noor.hasanudin@gmail.c
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/41c64bb5-8c3c-4a1f-9c26-9d43d7455721" />
 
 Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis Web, yang dapat melakukan pengundian hadiah Doorprize secara otomatis dijalankan oleh sistem, yang cepat, dan transparan, tanpa rekayasa, karena sistem akan secara acak memilih pemenang undian dari daftar peserta yang sudah terverifikasi, dan hanya Peserta yang bestatus "HADIR" yang masuk dalam proses Undian Doorprize.
-
-Aplikasi secara otomatis membuat Kartu QR (File PDF) yang dapat digunakan untuk melakukan Konfirmasi Kehadiran Peserta, dan Konfirmasi Kehadiran Peserta menggunakan Scanner QR Peserta (Hanya terdapat Pada Aplikasi Doorprize Pro - V3 Plus). 
-
  
-# Keunggulan Aplikasi Doorprize PRO — V3
-
+# Fitur Aplikasi Doorprize PRO — V3
 - Aplikasi dibuat menggunakan Framework `Flask Python` yang fleksibel, sangat ringan dan cepat.
 - Database menggunakan `SQLite3`, tanpa perlu menginstall MySQL
 - Cocok digunakan untuk acara besar
@@ -28,9 +24,18 @@ Aplikasi secara otomatis membuat Kartu QR (File PDF) yang dapat digunakan untuk 
 - Riwayat pemenang
 - Reset hasil atau reset seluruh data
 - Konfirmasi Kehadiran Manual
-- Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus 
-- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
-- Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
+- Kamera Scanner QR Peserta hanya berfungsi pada Localhost `http://127.0.0.1:5000/`, dan tidak berfungsi pada IP_LAN `http://IP_LAN:5000/`
+
+# Opsional Aplikasi Doorprize PRO — V3 Plus QR/WhatsApp Business/WhatsApp Business Cloud API (Paket Aplikasi Terpisah)
+- Kamera Scanner QR Peserta berfungsi pada IP_LAN `http://IP_LAN:5000/`** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus (QR, WhatsApp Business, dan
+  WhatsApp Business Cloud API)  
+- Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
+- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
+- Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
+- Pengiriman Kartu QR menggunakan **WhatsApp Business App / WhatsApp Business** secara manual (`wa.me`)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
+  WhatsApp Business
+- Pengiriman Kartu QR menggunakan **WhatsApp Business Cloud API resmi Meta** secara otomatis** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus WhatsApp
+  Business Cloud API
 
 ## Source files
 	- /static
