@@ -1,4 +1,4 @@
-Doorprize PRO — V3 Copyright 2026 noorhasanudin
+Doorprize PRO — V3 Copyright 2026 noorhasanudin email : noor.hasanudin@gmail.com WA : +6285652070654
 
 # Overview Aplikasi Doorprize PRO — V3
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/41c64bb5-8c3c-4a1f-9c26-9d43d7455721" />
@@ -18,8 +18,6 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Manajemen data dan pengaturan dilindungi login admin.
 - Import Excel (.xlsx/.xlsm)
 - Manajemen hadiah + quantity
-- Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran
-- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)
 - Status Peserta
 - Animasi Roda keberuntungan
 - Animasi Rolling peserta
@@ -27,6 +25,10 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Peserta pemenang otomatis dikeluarkan dari undian berikutnya
 - Riwayat pemenang
 - Reset hasil atau reset seluruh data
+- Konfirmasi Kehadiran Manual
+- Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus 
+- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta** (.zip) -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
+- Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
 
 ## Source files
 	- /static
@@ -35,7 +37,6 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- /static/draw.png
 	- /static/doorprice_pro.ico
 	- /static/doorprice_pro.png	
-	- /static/qr_cards.png
 	- /static/register_and_setting.png
 	- /static/state.png
 	- /static/register_and_setting.png
@@ -45,7 +46,6 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- /templates/attendance.html
 	- /templates/draw.html
 	- /templates/index.html
-	- /templates/qr_cards.html
 	- /templates/register_and_setting.html
 	- /templates/state.html
 	- app.py
