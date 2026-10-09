@@ -146,7 +146,7 @@ Template Impor Excel Data Hadiah
 ### Reset Riwayat Pemenang
 	- Klik Tombol `Reset Hasil` untuk mengembalikan semua data pemenang.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/9f993e0b-bd07-487f-92b4-2662110bd4c3" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e50c69d5-d692-4dfc-87d1-b02dcaab9fa1" />
 Reset Riwayat Pemenang
 
 ## Menu `🪪 QR Peserta`
@@ -155,7 +155,7 @@ Reset Riwayat Pemenang
 	- File Kartu QR peserta dapat dikirimkan kepada masing-masing Peserta yang dapat digunakan untuk melakukan `Konfirmasi kehadiran peserta` 
 	- Klik Tombol `Konfirmasi kehadiran` untuk ke Halaman `Konfirmasi kehadiran`.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/108b3051-4bd3-4120-bba7-8513c2dbfb7d" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/a9690ebc-82a7-415d-97bc-96382721ff50" />
 QR Peserta	
 
 ## Menu `📝 Konfirmasi Kehadiran`
@@ -171,21 +171,21 @@ QR Peserta
 		4. Untuk komputer jaringan LAN `192.168.*.*`, kamera tidak bisa digunakan tanpa HTTPS (tidak berfungsi).		
 		5. Jika scanner library tidak termuat, periksa koneksi internet karena halaman memuat `html5-qrcode` dari CDN.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/16ee8773-2203-4148-adb9-4231349d6911" />
-Konfirmasi Kehadiran menggunakan Kartu QR Peserta
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/c9894460-e386-4ad4-970a-c640e20eba63" />
+Konfirmasi Kehadiran menggunakan Scan Kartu QR Peserta
 
 ### Konfirmasi kehadiran manual
 	- Isikan `Nomor Tiket` pada row input `Nomor Tiket` sebagai alternatif jika scanner tidak tersedia
 	- Klik Tombol `✓ Konfirmasi Hadir` sampai tampil pesan `Kehadiran berhasil dikonfirmasi`, dan pada Status Kehadiran  yang sebelumnya `⏳Belum Hadir` menjadi `Hadir`.
 	- Klik Tombol `← Dashboard` untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/8addd97f-e4d5-4abb-a942-85664c58fa8d" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/2281a736-ff7c-4670-8f70-a99ff673e888" />
 Konfirmasi kehadiran manual	
 	
 ## Menu `📰 Status Peserta`
 	- Pada menu Status Peserta digunakan untuk menampilkan status kehadiran peserta `⏳Belum Hadir` / `Hadir`/ `Hadir` `🏆 Sudah Menang`
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/3f242a46-eb9a-4d5e-bdfa-c92083020a4f" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/a3496f43-6787-4e08-8c83-168a79899899" />
 Status Peserta
 
 ## Menu `🎡 Putar Undian`
@@ -202,10 +202,10 @@ Status Peserta
 	- Seluruh Pemenang akan tampil pada bagian sisi bawah.
 	- Klik Tombol `← Dashboard` untuk kembali ke Halaman Dashboard.	
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/4630716d-3fe1-42e3-bd83-1124e03dccbc" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/13b038eb-889d-4bb3-8ad6-4e35eb460355" />
 Melakukan Pengundian Doorprize
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/99c3210d-df1d-4fb3-ba50-d1740fc6f522" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/aee70bf3-c061-4956-9a86-9b4dd2dd116a" />
 Hsil Pemenang Undian Doorprize
 
 
