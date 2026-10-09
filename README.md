@@ -109,7 +109,7 @@ Login Admin
 	- Klik Tombol `⚠️ Hapus Semua Data` untuk menghapus semua database yang tersimpan di SQLite (Data Peserta, Hadiah, Pemenang dan Pengaturan).
 	- Klik Tombol `← Dashboard`untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/554d61e2-f33e-462a-8b02-8ebb8d1eba74" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/de930235-c286-4b12-b4ae-2454f7dadf34" />
 Pengaturan
 
 ### Input Data Peserta
