@@ -71,12 +71,11 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 ## Dashboard
 	Terdapat 5 Menu Utama pada Dashboard Doorprize PRO — V3:
 	- `📝 Registrasi & Pengaturan`
-	- `🪪 QR Peserta`
 	- `📷 Konfirmasi Kehadiran`
 	- `📰 Status Peserta`
 	- `🎡 Putar Undian`
 
-<img width="1911" height="957" alt="image" src="https://github.com/user-attachments/assets/b19e44b6-a30b-458d-8888-459adb485d15" >
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/06a0de46-9c8c-49e4-adc9-0e1fec9bdd22" />
 Dashboard Doorprize PRO V3
 
 
@@ -149,37 +148,13 @@ Template Impor Excel Data Hadiah
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e50c69d5-d692-4dfc-87d1-b02dcaab9fa1" />
 Reset Riwayat Pemenang
 
-## Menu `🪪 QR Peserta`
-	- Klik `Download Kartu PDF` pada bagian bawah Kartu QR masing-masing peserta untuk menguduh Kartu QR Setiap Peserta menjadi file PDF (nomor_tiket.pdf).
-	- Klik Tombol `Download Semua Kartu PDF ZIP` untuk menguduh semua Kartu QR PDF dalam bentuk file ZIP (Kartu_Peserta_Doorprize.zip).
-	- File Kartu QR peserta dapat dikirimkan kepada masing-masing Peserta yang dapat digunakan untuk melakukan `Konfirmasi kehadiran peserta` 
-	- Klik Tombol `Konfirmasi kehadiran` untuk ke Halaman `Konfirmasi kehadiran`.
-
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/a9690ebc-82a7-415d-97bc-96382721ff50" />
-QR Peserta	
-
 ## Menu `📝 Konfirmasi Kehadiran`
-
-### Konfirmasi Kehadiran menggunakan Kartu QR Peserta
-	- Klik Tombol `📷 Mulai Scanner`
-	- Arahkan Kartu QR Peserta ke posisi Kotak QR kamera pada PC/Smartphone sampai tampil pesan `Peserta sudah terkonfirmasi hadir`, dan pada Status Kehadiran yang sebelumnya 
-	  `⏳Belum Hadir` menjadi `Hadir`.
-	- Jika kamera tidak muncul:
-		1. Gunakan Chrome/Edge.
-		2. Izinkan akses kamera.
-		3. Untuk komputer lokal `127.0.0.1`, kamera dapat digunakan tanpa HTTPS.
-		4. Untuk komputer jaringan LAN `192.168.*.*`, kamera tidak bisa digunakan tanpa HTTPS (tidak berfungsi).		
-		5. Jika scanner library tidak termuat, periksa koneksi internet karena halaman memuat `html5-qrcode` dari CDN.
-
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/c9894460-e386-4ad4-970a-c640e20eba63" />
-Konfirmasi Kehadiran menggunakan Scan Kartu QR Peserta
-
 ### Konfirmasi kehadiran manual
 	- Isikan `Nomor Tiket` pada row input `Nomor Tiket` sebagai alternatif jika scanner tidak tersedia
 	- Klik Tombol `✓ Konfirmasi Hadir` sampai tampil pesan `Kehadiran berhasil dikonfirmasi`, dan pada Status Kehadiran  yang sebelumnya `⏳Belum Hadir` menjadi `Hadir`.
 	- Klik Tombol `← Dashboard` untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/2281a736-ff7c-4670-8f70-a99ff673e888" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/5ac7474a-b154-492c-abb0-e6090da8464a" />
 Konfirmasi kehadiran manual	
 	
 ## Menu `📰 Status Peserta`
