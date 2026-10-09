@@ -29,7 +29,7 @@ Aplikasi secara otomatis membuat Kartu QR (File PDF) yang dapat digunakan untuk 
 - Reset hasil atau reset seluruh data
 - Konfirmasi Kehadiran Manual
 - Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus 
-- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta** (.zip) -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
+- Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
 - Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
 
 ## Source files
