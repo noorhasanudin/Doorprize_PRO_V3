@@ -206,7 +206,7 @@ Status Peserta
 Melakukan Pengundian Doorprize
 
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/aee70bf3-c061-4956-9a86-9b4dd2dd116a" />
-Hsil Pemenang Undian Doorprize
+Hasil Pemenang Undian Doorprize
 
 
 
