@@ -27,7 +27,7 @@ function render(){
   $("participants").innerHTML=p.map((x,i)=>`<tr><td>${i+1}</td><td><b>${esc(x.ticket||"-")}</b></td><td>${esc(x.name||"-")}</td><td>${esc(x.department||"-")}</td><td>${esc(x.phone||"-")}</td><td>${x.attendance_status==='HADIR'?'<span class="badge success">HADIR</span>':'<span class="badge">BELUM HADIR</span>'}</td><td><button class="x" onclick="delP(${x.id})">✕</button></td></tr>`).join("")||'<tr><td colspan="7">Belum ada peserta.</td></tr>';
   $("prizes").innerHTML=prizes.map(x=>`<div class="row"><span>🎁 ${esc(x.name)} <small>×${x.remaining}/${x.quantity}</small></span><button class="x" onclick="delPrize(${x.id})">✕</button></div>`).join("")||"<small>Belum ada hadiah.</small>";
   $("prizeSelect").innerHTML='<option value="">Tanpa hadiah</option>'+prizes.filter(x=>x.remaining>0).map(x=>`<option value="${x.id}">${esc(x.name)} — ${x.remaining} tersisa</option>`).join("");
-  $("winners").innerHTML=winners.map(w=>`<div class="row winner-row"><div><strong>🏆 ${esc(w.name)}</strong><small>${w.prize?`🎁 ${esc(w.prize)}`:"Doorprize"} ${w.ticket?`• #${esc(w.ticket)}`:""}</small></div><small>${new Date(w.drawn_at).toLocaleString("id-ID")}</small></div>`).join("")||"<small>Belum ada pemenang.</small>";
+  $("winners").innerHTML=winners.map(w=>`<div class="row winner-row"><div><strong>🏆 ${esc(w.ticket||"-")}</strong><small>${esc(w.name||"")} ${w.prize?`• 🎁 ${esc(w.prize)}`:"• Doorprize"}</small></div><small>${new Date(w.drawn_at).toLocaleString("id-ID")}</small></div>`).join("")||"<small>Belum ada pemenang.</small>";
 }
 $("participantForm").onsubmit=async e=>{e.preventDefault();try{await api("/api/participants",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:$("name").value,ticket:$("ticket").value,department:$("department").value,phone:$("phone").value})});e.target.reset();load()}catch(e){toast(e.message)}};
 $("prizeForm").onsubmit=async e=>{e.preventDefault();try{await api("/api/prizes",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:$("prizeName").value,quantity:$("quantity").value})});e.target.reset();$("quantity").value=1;load()}catch(e){toast(e.message)}};
@@ -92,12 +92,12 @@ async function draw(){
   const turns=6+Math.floor(Math.random()*3), offset=Math.random()*360;
   wheelRotation+=turns*360+offset;$("wheel").style.transform=`rotate(${wheelRotation}deg)`;
   let candidates=state.participants.filter(x=>!x.is_winner && x.attendance_status==='HADIR'), i=0;
-  const interval=setInterval(()=>{$("rolling").textContent=candidates[i++%candidates.length].name},80);
+  const interval=setInterval(()=>{$("rolling").textContent=candidates[i++%candidates.length].ticket||"-"},80);
   try{
     const r=await api("/api/draw",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({prize_id:$("prizeSelect").value||null})});
     setTimeout(()=>{clearInterval(interval);clearInterval(spinTimer);$("rolling").classList.remove("spin");$("rolling").classList.add("hidden");
-      $("winnerName").textContent=r.participant.name;
-      $("winnerMeta").textContent=[r.participant.ticket&&`Tiket: ${r.participant.ticket}`,r.participant.department].filter(Boolean).join(" • ");
+      $("winnerName").textContent=r.participant.ticket||"-";
+      $("winnerMeta").textContent=[r.participant.name,r.participant.department].filter(Boolean).join(" • ");
       $("winnerPrize").textContent=r.prize?`🎁 ${r.prize.name}`:"🎉 Pemenang Doorprize";
       $("winnerCard").classList.remove("hidden");fanfare();confetti();load();$("drawBtn").disabled=false;
     },900);
