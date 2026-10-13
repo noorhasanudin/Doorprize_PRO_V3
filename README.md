@@ -149,11 +149,14 @@ Input Data Hadiah Manual
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/1448c282-8e07-47ad-8821-3868f6da4fe2" />
 Template Impor Excel Data Hadiah	
 
-### Reset Riwayat Pemenang
+### Reset Riwayat Pemenang atau Batalkan Pemenang Satu Per Satu
 	- Klik Tombol `Reset Hasil` untuk mengembalikan semua data pemenang.
+	- Klik Tombol `Batalkan Pemenang` pada sisi kanan salah satu pemenang -> Saat tampil Popup `Batalkan pemenang ini?satu unit hadiah akan dikembalikan ke stok 
+	  dan peserta akan berstatus BELUM HADIR.` Klik `OK` -> satu unit hadiah akan dikembalikan ke stok hadiah, dan peserta dikembalikan ke list peserta dengan 
+	  status `BELUM HADIR` sehingga tidak bisa mengikuti Undian berikutnya.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e50c69d5-d692-4dfc-87d1-b02dcaab9fa1" />
-Reset Riwayat Pemenang
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/2af6a7f6-4c2f-41b4-90df-6688a9b8933d" />
+Reset Riwayat Pemenang atau Batalkan Pemenang satu per satu
 
 ## Menu `📝 Konfirmasi Kehadiran`
 ### Konfirmasi kehadiran manual
@@ -184,10 +187,10 @@ Status Peserta
 	- Seluruh Pemenang akan tampil pada bagian sisi bawah.
 	- Klik Tombol `← Dashboard` untuk kembali ke Halaman Dashboard.	
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/13b038eb-889d-4bb3-8ad6-4e35eb460355" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/b9f69288-86da-41f5-85f7-54bbff7e93e2" />
 Melakukan Pengundian Doorprize
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/aee70bf3-c061-4956-9a86-9b4dd2dd116a" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e6d2dd5e-8087-4049-9cbf-652b5aa2df2f" />
 Hasil Pemenang Undian Doorprize
 
 
