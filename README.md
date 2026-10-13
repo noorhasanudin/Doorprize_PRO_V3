@@ -152,7 +152,7 @@ Template Impor Excel Data Hadiah
 ### Reset Riwayat Pemenang atau Batalkan Pemenang Satu Per Satu
 	- Klik Tombol `Reset Hasil` untuk mengembalikan semua data pemenang.
 	- Klik Tombol `Batalkan Pemenang` pada sisi kanan salah satu pemenang -> Saat tampil Popup `Batalkan pemenang ini?satu unit hadiah akan dikembalikan ke stok 
-	  dan peserta akan berstatus BELUM HADIR.` Klik `OK` -> satu unit hadiah akan dikembalikan ke stok hadiah, dan peserta dikembalikan ke list peserta dengan 
+	  dan peserta akan berstatus BELUM HADIR. Klik `OK` -> satu unit hadiah akan dikembalikan ke stok hadiah, dan peserta dikembalikan ke list peserta dengan 
 	  status `BELUM HADIR` sehingga tidak bisa mengikuti Undian berikutnya.
 
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/2af6a7f6-4c2f-41b4-90df-6688a9b8933d" />
