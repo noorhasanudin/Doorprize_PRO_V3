@@ -20,9 +20,10 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Animasi Roda keberuntungan
 - Animasi Rolling peserta
 - Suara drumroll dan fanfare berbasis Web Audio API
-- Peserta pemenang otomatis dikeluarkan dari undian berikutnya
 - Riwayat pemenang
-- Reset hasil atau reset seluruh data
+- Membatalkan pemenang satu per satu
+- Reset hasil pemenang
+- Reset Seluruh Data
 - Konfirmasi Kehadiran Manual
 - Kamera Scanner QR Peserta hanya berfungsi pada Localhost `http://127.0.0.1:5000/`, dan tidak berfungsi pada IP_LAN `http://IP_LAN:5000/`
 
