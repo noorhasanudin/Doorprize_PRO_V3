@@ -27,7 +27,7 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Kamera Scanner QR Peserta hanya berfungsi pada Localhost `http://127.0.0.1:5000/`, dan tidak berfungsi pada IP_LAN `http://IP_LAN:5000/`
 
 # Opsional Aplikasi Doorprize PRO — V3 Plus QR/WhatsApp Business/WhatsApp Business Cloud API (Paket Aplikasi Terpisah)
-- Import Excel (.xlsx/.xlsm) untuk peserta dan hadiah
+- Import Excel (.xlsx/.xlsm) untuk peserta dan hadiah** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
