@@ -85,8 +85,7 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- Klik Tombol `🔑 Masuk Sebagai Admin`
 	- Password disimpan sebagai hash di SQLite.
 	
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/ff125dd0-6a97-45a3-8a92-20badd5351e8" />
-
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e7af4064-7a22-45f2-805d-f1437c2a4700" />
 Login Admin
 	
 ## Dashboard
@@ -126,7 +125,7 @@ Pengaturan
 	- Logout: Klik Tombol `🔒 Logout Admin`
 	- Klik Tombol `← Kembali ke Dashboard`untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/978d1831-20a2-4c30-97e8-38bc47b06f67" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/ff125dd0-6a97-45a3-8a92-20badd5351e8" />
 
 Ubah Password
 
