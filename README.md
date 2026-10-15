@@ -75,6 +75,19 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- Klik Kanan pada `Doorprize_PRO_V3.bat` -> Send to `Desktop (Create Shortcut)`
 	- Klik Kanan pada Shortcut Desktop `Doorprize__PRO_V3.bat - Shortcut` `Rename` menjadi `Doorprize_PRO_V3`
 	- Klik Kanan Pada Shortcut Desktop `Doorprize_PRO_V3` -> `Properties` -> `Change Icon` -> `Browse` Cari file `/static/doorprice_pro.ico` -> `Open`
+
+
+## Login Admin
+	- Login admin untuk membuka Dashboard `Aplikasi Doorprize PRO`
+		Kredensial awal:
+		Username: `admin`
+		Password: `admin123`
+	- Klik Tombol `🔑 Masuk Sebagai Admin`
+	- Password disimpan sebagai hash di SQLite.
+	
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/ff125dd0-6a97-45a3-8a92-20badd5351e8" />
+
+Login Admin
 	
 ## Dashboard
 	Terdapat 5 Menu Utama pada Dashboard Doorprize PRO — V3:
@@ -86,24 +99,10 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/06a0de46-9c8c-49e4-adc9-0e1fec9bdd22" />
 Dashboard Doorprize PRO V3
 
+### Logout Admin
+	- Logout: Klik Tombol `🔒 Logout Admin`
 
 ## Menu `📝 Registrasi & Pengaturan`
-
-### Login Admin
-	- Login Admin — `📝 Registrasi & Pengaturan`
-		Menu `📝 Registrasi & Pengaturan` dilindungi login admin.
-		Kredensial awal:
-		Username: `admin`
-		Password: `admin123`
-	- Klik Tombol `🔑 Masuk Sebagai Admin`
-	- Password disimpan sebagai hash di SQLite.
-	- Endpoint input data, upload Excel, logo, pengaturan, dan hapus semua data juga dilindungi session admin.
-	- Setelah masuk, Klik Tombol `🔑 Ubah Password` untuk mengganti password.
-	- Password baru minimal 8 karakter dan disimpan sebagai hash di SQLite.
-	- Logout: Klik Tombol `🔒 Logout Admin`
-	- Klik Tombol `← Kembali ke Dashboard`untuk kembali ke Halaman Dashboard.
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e4377ea8-1720-4957-aa07-6a82e41d9480" />
-Login Admin
 
 ### Pengaturan
 	- Klik Tombol `⚙️ Pengaturan`
@@ -118,6 +117,17 @@ Login Admin
 
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/de930235-c286-4b12-b4ae-2454f7dadf34" />
 Pengaturan
+
+### Ubah Password
+	- Klik Tombol `🔑 Ubah Password` untuk mengganti password.
+	- Isikan Password lama default `admin123`.
+	- Isikan Password baru minimal 8 karakter dan disimpan sebagai hash di SQLite.
+	- Ulangi isikan Password baru minimal 8 karakter dan disimpan sebagai hash di SQLite.	
+	- Logout: Klik Tombol `🔒 Logout Admin`
+	- Klik Tombol `← Kembali ke Dashboard`untuk kembali ke Halaman Dashboard.
+
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/950e1637-48cf-4c25-9e0b-3946705a8bdd" />
+Ubah Password
 
 ### Input Data Peserta
 	- Isikan Nomor Tiket pada row input `Tiket` (*Wajib diisi).
