@@ -9,11 +9,11 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Aplikasi dibuat menggunakan Framework `Flask Python` yang fleksibel, sangat ringan dan cepat.
 - Database menggunakan `SQLite3`, tanpa perlu menginstall MySQL
 - Cocok digunakan untuk acara besar
+- Aplikasi dilindungi login admin.
 - Data Peserta Tidak Terbatas
 - Branding acara: Nama acara, subtitle, logo
 - Fullscreen / LED mode
 - Dashboard statistik
-- Manajemen data dan pengaturan dilindungi login admin.
 - Manajemen hadiah + quantity
 - Status Peserta
 - Animasi Roda keberuntungan
