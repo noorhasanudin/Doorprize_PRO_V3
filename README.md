@@ -114,7 +114,7 @@ Dashboard Doorprize PRO V3
 	- Klik Tombol `⚠️ Hapus Semua Data` untuk menghapus semua database yang tersimpan di SQLite (Data Peserta, Hadiah, Pemenang dan Pengaturan).
 	- Klik Tombol `← Dashboard`untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/de930235-c286-4b12-b4ae-2454f7dadf34" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/12298dcd-7094-4d90-b7d9-f915b5b74242" />
 Pengaturan
 
 ### Ubah Password
