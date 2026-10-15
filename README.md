@@ -126,7 +126,8 @@ Pengaturan
 	- Logout: Klik Tombol `🔒 Logout Admin`
 	- Klik Tombol `← Kembali ke Dashboard`untuk kembali ke Halaman Dashboard.
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/950e1637-48cf-4c25-9e0b-3946705a8bdd" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/978d1831-20a2-4c30-97e8-38bc47b06f67" />
+
 Ubah Password
 
 ### Input Data Peserta
