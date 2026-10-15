@@ -96,7 +96,7 @@ Login Admin
 	- `📰 Status Peserta`
 	- `🎡 Putar Undian`
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/06a0de46-9c8c-49e4-adc9-0e1fec9bdd22" />
+<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/633949bf-1725-4e7c-8284-79f857d11c37" />
 Dashboard Doorprize PRO V3
 
 ### Logout Admin
