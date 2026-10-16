@@ -1,11 +1,11 @@
-Doorprize PRO — V3 Copyright 2026 noorhasanudin email : noor.hasanudin@gmail.com WA : +6285652070654
+Doorprize PRO — V3 Lite Copyright 2026 noorhasanudin email : noor.hasanudin@gmail.com WA : +6285652070654
 
-# Overview Aplikasi Doorprize PRO — V3
+# Overview Aplikasi Doorprize PRO — V3 Lite
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/41c64bb5-8c3c-4a1f-9c26-9d43d7455721" />
 
-Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis Web, yang dapat melakukan pengundian hadiah Doorprize secara otomatis dijalankan oleh sistem, yang cepat, dan transparan, tanpa rekayasa, karena sistem akan secara acak memilih pemenang undian dari daftar peserta yang sudah terverifikasi, dan hanya Peserta yang bestatus "HADIR" yang masuk dalam proses Undian Doorprize.
+Aplikasi Doorprize PRO — V3 Lite adalah aplikasi untuk undian Doorprize berbasis Web, yang dapat melakukan pengundian hadiah Doorprize secara otomatis dijalankan oleh sistem, yang cepat, dan transparan, tanpa rekayasa, karena sistem akan secara acak memilih pemenang undian dari daftar peserta yang sudah terverifikasi, dan hanya Peserta yang bestatus "HADIR" yang masuk dalam proses Undian Doorprize.
  
-# Fitur Aplikasi Doorprize PRO — V3
+# Fitur Aplikasi Doorprize PRO — V3 Lite
 - Aplikasi dibuat menggunakan Framework `Flask Python` yang fleksibel, sangat ringan dan cepat.
 - Database menggunakan `SQLite3`, tanpa perlu menginstall MySQL
 - Cocok digunakan untuk acara besar
@@ -24,15 +24,15 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 - Reset hasil pemenang
 - Reset Seluruh Data
 - Konfirmasi Kehadiran Manual
-- Kamera Scanner QR Peserta hanya berfungsi pada Localhost `http://127.0.0.1:5000/`, dan tidak berfungsi pada IP_LAN `http://IP_LAN:5000/`
 
 # Opsional Aplikasi Doorprize PRO — V3 Plus QR/WhatsApp Business/WhatsApp Business Cloud API (Paket Aplikasi Terpisah)
 - Import Excel (.xlsx/.xlsm) untuk peserta dan hadiah** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
-- Kamera Scanner QR Peserta berfungsi pada IP_LAN `http://IP_LAN:5000/`** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus (WhatsApp Business, dan
-  WhatsApp Business Cloud API)  
+- Kamera Scanner QR Peserta hanya berfungsi pada Localhost `http://127.0.0.1:5000/`, dan tidak berfungsi pada IP_LAN `http://IP_LAN:5000/`** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
+- Kamera Scanner QR Peserta berfungsi pada IP_LAN `http://IP_LAN:5000/`** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus WhatsApp Business, dan
+  WhatsApp Business Cloud API  
 - Pengiriman Kartu QR menggunakan **WhatsApp Business App / WhatsApp Business** secara manual (`wa.me`)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus
   WhatsApp Business
 - Pengiriman Kartu QR menggunakan **WhatsApp Business Cloud API resmi Meta** secara otomatis** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus WhatsApp
@@ -69,7 +69,7 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 	- Menginstall tools Library `Python`: `pip install -r requirements.txt`.
 	- Menjalankan Aplikasi `Flask Python`: `python app.py`
 	- Memjalankan `Chrome` Localhost `http://127.0.0.1:5000/`
-	- Menampilkan Dashboard Aplikasi `Doorprize PRO V3`
+	- Menampilkan Dashboard Aplikasi `Doorprize PRO V3 Lite`
 
 ## Membuat Shortcut Aplikasi + Icon Desktop
 	- Klik Kanan pada `Doorprize_PRO_V3.bat` -> Send to `Desktop (Create Shortcut)`
@@ -89,7 +89,7 @@ Aplikasi Doorprize PRO — V3 adalah aplikasi untuk undian Doorprize berbasis We
 Login Admin
 	
 ## Dashboard
-	Terdapat 5 Menu Utama pada Dashboard Doorprize PRO — V3:
+	Terdapat 5 Menu Utama pada Dashboard Doorprize PRO — V3 Lite:
 	- `📝 Registrasi & Pengaturan`
 	- `📷 Konfirmasi Kehadiran`
 	- `📰 Status Peserta`
