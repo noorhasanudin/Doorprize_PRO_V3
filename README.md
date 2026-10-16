@@ -140,30 +140,20 @@ Ubah Password
 	- Isikan Departemen / Instansi pada row input `Departemen / Instansi` (*Opsional).
 	- Isikan Nomor HP / WA pada row input `Nomor HP / WA` (*Opsional).
 	- Klik Tombol `➕ Tambah Peserta`.
-	- Urutan Kolom Tabel Excel `Upload Excel Peserta` : |No|Nomor Tiket|Nama Peserta|Departemen|No HP|Status| atau bisa juga menggunakan Template file Excel yang tersedia.
-	- Untuk Upload data Peserta menggunakan Template file Excel Klik `📊 Upload Excel Peserta` -> Pilih File Excel Peserta (.xlxs) -> `Open`
 	- Untuk menghapus data Peserta satu per satu klik tommbol `❌` pada sisi kanan data Peserta.
 
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/2001f68f-3a29-41ba-91ed-413d62f483c6" />
 Input Data Peserta Manual
 
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/e7fb95e0-b28d-448e-a651-224c156e0000" />
-Template Impor Excel Data Peserta	
-
 ### Input Data Hadiah
 	- Isikan Nama hadiah pada row input `Nama hadiah` (*Wajib diisi).
 	- Isikan Jumlah pada row input `Jumlah` (*Wajib diisi dengan angka minimal `1`).
 	- Klik Tombol `➕ Tambah Hadiah`.
-	- Urutan Kolom Tabel Excel `Upload Hadiah` : |No|Nama Hadiah|Jumlah|Keterangan| atau bisa juga menggunakan Template file Excel yang tersedia.
-	- Untuk Upload data Hadiah menggunakan Template file Excel Klik `📊 Upload Excel Hadiah` -> Pilih File Excel Peserta (.xlxs) -> `Open`
 	- Untuk menghapus data Hadiah satu per satu klik tommbol `❌` pada sisi kanan data Hadiah.
 	- Klik Tombol `← Dashboard`untuk kembali ke Halaman Dashboard.
 
 <img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/73362251-0452-4735-a672-a759fcb924df" />
 Input Data Hadiah Manual
-
-<img width="100%" height="Auto" alt="image" src="https://github.com/user-attachments/assets/1448c282-8e07-47ad-8821-3868f6da4fe2" />
-Template Impor Excel Data Hadiah	
 
 ### Reset Riwayat Pemenang atau Batalkan Pemenang Satu Per Satu
 	- Klik Tombol `Reset Hasil` untuk mengembalikan semua data pemenang.
