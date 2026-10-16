@@ -26,7 +26,8 @@ Aplikasi Doorprize PRO — V3 Lite adalah aplikasi untuk undian Doorprize berbas
 - Konfirmasi Kehadiran Manual
 
 # Opsional Aplikasi Doorprize PRO — V3 Plus QR/WhatsApp Business/WhatsApp Business Cloud API (Paket Aplikasi Terpisah)
-- Import Excel (.xlsx/.xlsm) untuk peserta dan hadiah** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
+- Import Excel (.xlsx/.xlsm) untuk peserta dan hadiah** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR, WhatsApp Business, dan
+  WhatsApp Business Cloud API
 - Otomatis membuat QR Peserta untuk Konfirmasi Kehadiran** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Download QR Peserta Per Peserta (.pdf) atau Semua Peserta (.zip)** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
 - Konfirmasi Kehadiran Otomatis Menggunakan Scanner QR Peserta** -> Opsional pada Aplikasi Doorprize Versi PRO V3 Plus QR
