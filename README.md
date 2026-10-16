@@ -63,8 +63,6 @@ Aplikasi Doorprize PRO — V3 Lite adalah aplikasi untuk undian Doorprize berbas
 	- app.py
 	- doorprize_pro.db
 	- Doorprize_PRO_V3.bat
-	- Template_Upload_Hadiah_Doorprize.xlsx
-	- Template_Upload_Peserta_Doorprize.xlsx
 	- README.md
 	- requirements.txt
 
